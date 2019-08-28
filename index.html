@@ -5,31 +5,52 @@
     <title>College Forum</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="two columns" id="headerFour">four</div>
-            <div class="ten columns" id="headerEight">
-                <form>
-                    <div class="row">
-                        <div class="two columns" id="threeCol">
-                            <label for="username">Username</label>
+    <div class="section hero">
+        <div class="container">
+            <div class="row">
+                <div class="two columns u-pull-left" id="headerFour">four</div>
+                <div class="eight columns u-pull-right" id="headerEight">
+                    <div class="container">
+                    <form>
+                        <div class="row">
+                            <div class="three columns" id="threeCol">
+                                <label for="username">Username</label>
+                                <input class="u-full-width" type="text" placeholder="swaggy_singh" id="username">
+                            </div>
+                            <div class="three columns" id="threeCol">
+                                <label for="password">Password</label>
+                                <input class="u-full-width" type="password" id="password">
+                            </div>
+                            <div class="two columns" id="twoCol">
+                                <input class="button-primary" type="submit" value="Submit">            
+                            </div>
                         </div>
-                        <div class="two columns" id="twoCol">
-                            <input class="u-full-width" type="text" placeholder="swaggy_singh" id="username">
-                        </div>
-                        <div class="two columns" id="threeCol">
-                            <label for="password">Password</label>
-                        </div>
-                        <div class="two columns" id="twoCol">
-                            <input class="u-full-width" type="password" id="password">
-                        </div>
-                        <div class="two columns" id="twoCol">
-                            <input class="button-primary" type="submit" value="Submit">            
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
+                </div>
             </div>
         </div>
     </div>
-    <button class="button-primary">Button element</button>
+    <br><br>
+    <div class="section value u-max-full-width" id="threadsSection">
+        <div class="container">
+            <div class="row">
+                <div class="three columns value">
+                    <h1 class="value-heading" id="threadsHeading">Threads</h1> 
+                </div>
+            </div>
+            <div class="row">
+                <table class="u-full-width">
+                    <thead>
+                        <tr>
+                            <th class="two columns">Started By</th>
+                            <th class="five columns">Title</th>
+                            <th class="two columns">Date Posted</th>
+                            <th class="two columns">Replies</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
 </body>
