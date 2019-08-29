@@ -29,8 +29,8 @@ header {
 
 #icon {
     background-position:0 0;
-    height:102px;
-    width:130px;
+    height:92px;
+    width:110px;
 }
 #threadsHeading {
     font-weight: 200;
@@ -38,5 +38,13 @@ header {
 }
 
 table {
-    //order: 1px solid green;
+    //border: 1px solid green;
+}
+
+#brandText {
+    //border: 1px solid brown;
+    letter-spacing: 0.8px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 46%;
 }

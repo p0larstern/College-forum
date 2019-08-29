@@ -26,7 +26,7 @@ var tableContent = "";
 
 for(i = 0; i < count; i++) {
     tableContent = tableContent + "<tr><td class='two columns'>" + json.threads[i].Started_By +
-    "</td><td class='five columns'>" + json.threads[i].Title +
+    "</td><td class='six columns'>" + json.threads[i].Title +
     "</td><td class='two columns'>" + json.threads[i].Date_Posted +
     "</td><td class='two columns'>" + json.threads[i].Replies +
     "</td></tr>"
