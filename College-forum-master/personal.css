@@ -1,0 +1,42 @@
+#headerFour {
+    //border: 1px solid black;
+}
+
+#headerEight {
+    //border: 1px solid blue;
+}
+
+#threeCol {
+    //border: 1px solid red;
+}
+
+#twoCol {
+    //border: 1px solid red;
+}
+
+header {
+    //border: 1px solid black;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; 
+}
+
+#icon {
+    background-position:0 0;
+    height:102px;
+    width:130px;
+}
+#threadsHeading {
+    font-weight: 200;
+    letter-spacing: 0.6px;
+}
+
+table {
+    //order: 1px solid green;
+}
